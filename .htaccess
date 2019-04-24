@@ -1,0 +1,10 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^rodrigosimoesrosa\.nataliasgfotografia\.com\.br$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.rodrigosimoesrosa\.nataliasgfotografia\.com\.br$
+RewriteRule ^/?$ "http\:\/\/www\.rodrigosimoesrosa\.com\.br" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^rodrigosimoesrosa\.com\.br$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.rodrigosimoesrosa\.com\.br$
+RewriteRule ^/?$ "http\:\/\/www\.rodrigosimoesrosa\.com\.br" [R=301,L]
+
